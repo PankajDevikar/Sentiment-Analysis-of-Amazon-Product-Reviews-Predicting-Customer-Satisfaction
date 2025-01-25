@@ -123,3 +123,18 @@ Presentation (PPT): Highlights key findings and results.
 ## **Conclusion**
 
 This project demonstrates the effective application of sentiment analysis techniques to predict customer satisfaction. By addressing class imbalance, leveraging ensemble methods, and extracting actionable insights, it offers valuable recommendations for improving customer experience and product offerings in e-commerce.
+
+Output:
+![visualization](https://github.com/user-attachments/assets/9c7d4774-7925-4da7-9d9f-3c727fe55206)
+![wordcloud_positive](https://github.com/user-attachments/assets/8dd48001-0082-4129-9926-a263d5b220eb)
+![wordcloud_negative](https://github.com/user-attachments/assets/0b7fa352-7411-4bef-8f43-3b0402130096)
+![wordcloud_neutral](https://github.com/user-attachments/assets/1babc363-41df-4ddd-ace6-b2fc448467aa)
+![undersampling](https://github.com/user-attachments/assets/2166fb0e-ab98-4a27-a681-6a5e0487bcca)
+![oversampling](https://github.com/user-attachments/assets/9fabb10d-dc02-4152-9b5f-3c1f9c3ca122)
+![Randomforest](https://github.com/user-attachments/assets/c58e292e-60b7-4241-84d1-72ca2b1331bf)
+![XGBoost](https://github.com/user-attachments/assets/b938235f-7af6-4cba-98fd-0713cd636ef0)
+![LSTM](https://github.com/user-attachments/assets/5584069e-869d-46c3-9709-a83c07b52c51)
+![Topic](https://github.com/user-attachments/assets/af88ec33-f2a9-447e-9f31-02a98fabcd31)
+
+
+
