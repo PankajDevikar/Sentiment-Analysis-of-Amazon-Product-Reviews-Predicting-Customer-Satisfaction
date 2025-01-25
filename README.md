@@ -1,10 +1,10 @@
-Sentiment Analysis of Amazon Product Reviews: Predicting Customer Satisfaction
+# **Sentiment Analysis of Amazon Product Reviews: Predicting Customer Satisfaction**
 
-Project Overview
+## **Project Overview**
 
 This project analyzes over 34,000 Amazon product reviews to predict customer satisfaction using sentiment analysis, classification models, and topic modeling techniques. It addresses challenges like class imbalance, effective feature engineering, and evaluation of model performance.
 
-Objectives
+## **Objectives**
 
 Understand and predict sentiments expressed in Amazon product reviews.
 
@@ -14,7 +14,7 @@ Compare traditional machine learning algorithms with neural network approaches.
 
 Extract actionable insights using topic modeling techniques.
 
-Key Features of the Dataset
+## **Key Features of the Dataset**
 
 Attributes: Brand, Categories, Review Titles, Review Text, Sentiment Levels (Positive, Neutral, Negative).
 
@@ -22,7 +22,7 @@ Challenges: Class imbalance with a dominance of Positive reviews.
 
 Workflow and Methodology
 
-1. Data Preprocessing:
+## 1. Data Preprocessing:
 
 Handled missing values and performed data cleaning.
 
@@ -34,13 +34,13 @@ Sentiment score for additional insight.
 
 Transformed text data into numerical features using TF-IDF vectorization.
 
-2. Class Imbalance Handling:
+## 2. Class Imbalance Handling:
 
 Applied oversampling to increase minority class representation.
 
 Experimented with undersampling for comparison.
 
-3. Model Implementation:
+## 3. Model Implementation:
 
 Traditional Machine Learning Models:
 
@@ -54,7 +54,7 @@ LSTM models captured long-term dependencies but struggled with minority classes.
 
 ANN showed decent performance but could not surpass XGBoost.
 
-4. Topic Modeling:
+## 4. Topic Modeling:
 
 Used Latent Dirichlet Allocation (LDA) and Non-Negative Matrix Factorization (NMF) for clustering reviews into themes.
 
@@ -66,7 +66,7 @@ Child-Friendly Features
 
 Usability for Reading and Entertainment
 
-Evaluation Metrics
+## Evaluation Metrics
 
 F1-Score: Focused on balancing precision and recall.
 
@@ -74,15 +74,15 @@ ROC-AUC: Used to gauge model performance across all classes.
 
 Precision, Recall, and Accuracy metrics were also employed for comparison.
 
-Key Insights and Results
+## Key Insights and Results
 
-Customer Sentiments:
+## **Customer Sentiments:**
 
 Positive reviews emphasized ease of use, screen quality, and compatibility with smart devices.
 
 Negative reviews highlighted issues like slow connectivity and poor battery life.
 
-Model Performance:
+## **Model Performance:**
 
 XGBoost performed best overall, particularly in handling imbalanced data.
 
@@ -90,11 +90,11 @@ Logistic Regression showed improvements with oversampled data but lagged behind 
 
 LSTM models provided moderate results, unable to address class imbalance effectively.
 
-Topic Modeling:
+## **Topic Modeling:**
 
 Revealed themes related to customer priorities like durability, aesthetics, and performance.
 
-Recommendations
+## **Recommendations**
 
 Focus on ensemble-based models like XGBoost for imbalanced datasets.
 
@@ -104,7 +104,7 @@ Use topic modeling insights to align product design and marketing strategies wit
 
 Experiment with hybrid models combining XGBoost and LSTM for improved predictions.
 
-Learning Outcomes
+## **Learning Outcomes**
 
 Developed expertise in handling class imbalance and feature engineering.
 
@@ -120,6 +120,6 @@ Project Summary Report: Provides a comprehensive overview of the project.
 
 Presentation (PPT): Highlights key findings and results.
 
-Conclusion
+## **Conclusion**
 
 This project demonstrates the effective application of sentiment analysis techniques to predict customer satisfaction. By addressing class imbalance, leveraging ensemble methods, and extracting actionable insights, it offers valuable recommendations for improving customer experience and product offerings in e-commerce.
